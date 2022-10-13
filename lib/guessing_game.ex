@@ -1,4 +1,8 @@
-defmodule GuessingGame do
+defmodule Games.GuessingGame do
+  def guess do
+    guess(nil)
+  end
+
   def guess(answer) do
     player_guess =
       IO.gets("Guess a number between 1 and 10.   ")
@@ -11,4 +15,4 @@ defmodule GuessingGame do
   end
 end
 
-GuessingGame.guess(nil)
+# GuessingGame.guess(nil)

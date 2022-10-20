@@ -11,7 +11,7 @@ defmodule Games.GuessingGame do
     |> String.to_integer()
   end
 
-  # to check if the guess matches the answer, if not call hint() AND aka && loop guess(answer) again
+  # to check if the guess matches the answer, if not call hint() AND, aka &&, loop guess(answer) again
   def guess(answer) do
     player_guess = get_guess()
 
